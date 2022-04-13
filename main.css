@@ -6,13 +6,15 @@ h1{
     font-weight: 800;
     padding-bottom: 50px;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .heart {
+	
 	position: relative;
 	width: 100px;
 	height: 100px;
+	margin-left: 50px;
 	-webkit-transform: rotate(45deg);  /* для Chrome и Safari */
 	-moz-transform: rotate(45deg); /* для Firefox */ 
 	-o-transform: rotate(45deg); /* для Opera */ 
