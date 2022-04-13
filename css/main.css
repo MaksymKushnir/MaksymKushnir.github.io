@@ -1,1 +1,4 @@
-/* No CSS */
+.bg-image {
+  background-image: url(/img/2.jpeg) no-clip;
+  margin-bottom: 12px;
+}
