@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine's Proposal</title>
+    <title>Good Night Proposal</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
             <img class="image" src="images/cute.gif"></img>
             <div class="text">
               <h1 class="hh" id="name">Привіт, красуне!</h1>
-              <p class="pp" id="question">Ти будеш моєю Валентинкою? </p>
+              <p class="pp" id="question">Тебе цікавить що буде далі?</p>
             </div>
             <div class="buttons">
                 <button class="button no" id="no-button" onclick="showMessage('No')">Ні</button>
@@ -60,7 +60,7 @@
     document.getElementById("no-button").remove();
 
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "Ти моя бусінка 😘";
+    yesMessage.textContent = "Бажаю добре виспатися, і десь під подушкою, знайти чудовий настрій на весь наступний день. Добраніч! 😘";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/kiss.gif";
