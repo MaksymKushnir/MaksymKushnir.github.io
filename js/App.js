@@ -1,4 +1,4 @@
-var info = prompt("Докажи що ти не робот =)\nнапиши - Хочу листівку", "Хочу " );
+var info = prompt("Докажи що ти не робот =)\nНапиши - Хочу листівку", "Хочу " );
 if(info === "Хочу листівку"){
     document.addEventListener('DOMContentLoaded', function() {
         const button = document.createElement('button');
@@ -13,9 +13,13 @@ if(info === "Хочу листівку"){
             ];
             const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
             document.querySelector('.card-text').textContent = randomWish;
+            button.textContent = 'Закрити';
+            button.addEventListener('click',function(){
+                close();
+            })
         });
     });
 }else{
-    info = alert("Ой лишенько, щось пішло не так!\nВибач, кіна не буде, розходимось спати=)")
+    info = confirm("Ой лишенько, щось пішло не так!\nПоходу, кіна не буде, розходимось спати=)\nАбо пиши правильно)")
     close();
 }
