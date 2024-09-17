@@ -5,7 +5,7 @@ body, html {
 }
 
 .background-image {
-  background-image: url('/img/');
+  background-image: url('/img/flowers1.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,14 +16,36 @@ body, html {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 20px;
   width: 80%;
   max-width: 500px;
+  
+}
+.btn-greens{
+  background-color:#36b169c2;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+  padding:15px;
+  min-height:30px; 
+  min-width: 120px;
+}
+
+.btn-greens:hover{
+  background-color:#237accc2;
+  color: #fff;
+}
+
+.btn-greens::after{
+  background-color:#237accc2;
+  color: #fff;
 }
