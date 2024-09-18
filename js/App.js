@@ -6,7 +6,6 @@ if(info === "Хочу листівку"){
         button.textContent = 'Подивитись';
         button.classList.add('btn', 'btn-greens', 'mt-3');
         document.querySelector('.card-body').appendChild(button);
-    
         button.addEventListener('click', function() {
             const wishes = [
                 "Кохана, хай у твоїх снах ми будемо разом, а навколо – квіти, зірки та все найкраще. Нехай ці сни будуть такими ж ніжними та прекрасними, як ти. Дякую тобі за те, що ти є в моєму житті. Ти робиш мене щасливішим кожного дня. Я дякую тобі за те що знайшов тебе. Солодких снів, моя муза. Одужуй! Міцно обіймаю!"
