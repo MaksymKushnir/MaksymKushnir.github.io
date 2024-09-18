@@ -1,5 +1,5 @@
 var info = prompt("Докажи що ти не робот =)\nНапиши - Хочу листівку", "Хочу " );
-if(info == "Хочу листівку"){
+if(info === "Хочу листівку"){
     info = alert("Кохаю тебе сильно сильно💕❤️")
     document.addEventListener('DOMContentLoaded', function() {
         const button = document.createElement('button');
