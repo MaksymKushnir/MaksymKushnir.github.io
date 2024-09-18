@@ -5,7 +5,7 @@ body, html {
 }
 
 .background-image {
-  background-image: url('/img/flowers1.jpg');
+  background-image: url('/img/flowers.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
