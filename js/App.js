@@ -19,7 +19,7 @@ if(info === "Хочу листівку"){
         });
     });
 }else if(info === "Хочу Макса"){
-    info = alert("Проходь, я на тебе чекав 😝")
+    info = alert("Проходь, я на тебе чекав ❤️")
     document.addEventListener('DOMContentLoaded', function() {
         const button = document.createElement('button');
         button.textContent = 'Переглянути бажання';
