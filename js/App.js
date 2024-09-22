@@ -1,4 +1,4 @@
-var info = prompt("Докажи що ти не робот =)\nНапиши - Хочу листівку", "Хочу " );
+var info = prompt("Напиши - Хочу листівку", "Хочу " );
 if(info === "Хочу листівку"){
     info = alert("Кохаю тебе ❤️")
     document.addEventListener('DOMContentLoaded', function() {
