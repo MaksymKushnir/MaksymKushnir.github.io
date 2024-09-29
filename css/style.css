@@ -5,7 +5,7 @@ body, html {
 }
 
 .background-image {
-  background-image: url('/img/flowers4.jpg');
+  background-image: url('/img/alchemyrefiner_alchemymagic_2_48f11d75-d578-4e62-9b7e-f012ec5ccecc_0.webp');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body, html {
   
 }
 .btn-greens{
-  background-color:#36b169c2;
+  background-color:#af107fc2;
   color: #fff;
   border:none; 
   border-radius:10px; 
@@ -41,11 +41,11 @@ body, html {
 }
 
 .btn-greens:hover{
-  background-color:#237accc2;
+  background-color:#af107fc2;
   color: #fff;
 }
 
 .btn-greens::after{
-  background-color:#237accc2;
+  background-color:#af107fc2;
   color: #fff;
 }

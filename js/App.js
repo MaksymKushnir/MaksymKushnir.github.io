@@ -1,14 +1,13 @@
 var info = prompt("Напиши - Хочу листівку", "Хочу " );
 if(info === "Хочу листівку"){
-    info = alert("Кохаю тебе ❤️")
     document.addEventListener('DOMContentLoaded', function() {
         const button = document.createElement('button');
-        button.textContent = 'Подивитись';
+        button.textContent = 'ᓚᘏᗢ ❤️';
         button.classList.add('btn', 'btn-greens', 'mt-3');
         document.querySelector('.card-body').appendChild(button);
         button.addEventListener('click', function() {
             const wishes = [
-                "Люблю тебе сильно сильно. Твій Кусь! 💫💖"
+                "Кицюнь. Люблю тебе сильно сильно. Дякую тобі за неймовірні емоції якими ти мене надихнула."
             ];
             const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
             document.querySelector('.card-text').textContent = randomWish;
@@ -19,20 +18,20 @@ if(info === "Хочу листівку"){
         });
     });
 }else if(info === "Хочу Макса"){
-    info = alert("Я так довго на тебе чекав ❤️")
+    info = alert("Я тебе зустрів ❤️")
     document.addEventListener('DOMContentLoaded', function() {
         const button = document.createElement('button');
-        button.textContent = 'Переглянути бажання';
+        button.textContent = 'ᓚᘏᗢ ❤️';
         button.classList.add('btn', 'btn-greens', 'mt-3');
         document.querySelector('.card-body').appendChild(button);
         button.addEventListener('click', function() {
             const wishes = [
-                "У мене на тебе прекрасні, хоч і не зовсім пристойні плани... Ти - спокуса... Яка хвилює, тривожить і оживляє мою душу. Від тебе мурашки по тілу, навіть коли я просто думаю про тебе"]; 
+                "У мене від тебе мурашки по тілу, навіть коли я просто думаю про тебе. А цей твій трюк з трусиками він неймовірний та збуджуючий"]; 
             const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
             document.querySelector('.card-text').textContent = randomWish;
             button.textContent = '😘';
             button.addEventListener('click',function(){
-                info = alert("Якщо хочеш легкий секс, то напиши мені 1, бурхливий - 2, оральний - 3, анальний - 4, поза 69 - 5, а от якщо хочеш повний пакет послуг, то ... скинь мені виклик 🔥")
+                info = alert("Обіймаю. До мурашок ❤️ ")
                 close();
             })
         });
