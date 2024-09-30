@@ -7,7 +7,8 @@ if(info === "Хочу листівку"){
         document.querySelector('.card-body').appendChild(button);
         button.addEventListener('click', function() {
             const wishes = [
-                "Кицюнь. Люблю тебе сильно сильно. Дякую тобі за неймовірні емоції якими ти мене надихнула."
+                "Кицюнь. Люблю тебе сильно сильно. Дякую тобі за неймовірні емоції якими ти мене надихнула.",
+                "Вічно можна дивитись  на три речі: -Як тече вода. -Як горить вогонь. - І в твої милі оченята❤️"
             ];
             const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
             document.querySelector('.card-text').textContent = randomWish;
