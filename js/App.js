@@ -25,7 +25,7 @@ if(info === "Хочу листівку"){
         button.classList.add('btn', 'btn-greens', 'mt-3');
         document.querySelector('.card-body').appendChild(button);
         button.addEventListener('click', function() {
-            const wishes = ["Мася, з тобою хочеться все... Без тебе хочеться тебе. Хочеться твоїх обіймів і щоб ти була в моїх обіймах 😘"]
+            const wishes = ["Мася, з тобою хочеться все... Без тебе хочеться тебе. Хочеться твоїх обіймів і щоб ти була в моїх обіймах 😘"];
             document.querySelector('.card-text').textContent = randomWish;
             button.textContent = '😘';
             button.addEventListener('click',function(){
