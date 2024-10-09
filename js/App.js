@@ -7,14 +7,12 @@ if(info === "Хочу листівку"){
         document.querySelector('.card-body').appendChild(button);
         button.addEventListener('click', function() {
             const wishes = [
-                "Зранку я завжди заходжу в переписку з тобою, тому що ранок потрібно починати з ПРЕКРАСНОГО. Я вже не хочу без тебе, моя кохана прекрасна половинка 🥰"
-            ];
+                "224:   - today, - tomorrow, - forewer love you"];
             const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
             document.querySelector('.card-text').textContent = randomWish;
             button.textContent = '😘';
             button.addEventListener('click',function(){
                 info = alert("Обіймаю. До мурашок ❤️ ")
-                close();
             })
         });
     });
@@ -25,12 +23,13 @@ if(info === "Хочу листівку"){
         button.classList.add('btn', 'btn-greens', 'mt-3');
         document.querySelector('.card-body').appendChild(button);
         button.addEventListener('click', function() {
-            const wishes = ["Мася, з тобою хочеться все... Без тебе хочеться тебе. Хочеться твоїх обіймів і щоб ти була в моїх обіймах 😘"];
+            const wishes = [
+                "Мася, з тобою хочеться все... Без тебе хочеться тебе. Хочеться твоїх обіймів. Ти найкраща. Ти неймовірна. Ти мрія. Ти красива. Ти мила. Ти найулюбленіша. Ти неперевершена. Кохаю тебе😘"];
+            const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
             document.querySelector('.card-text').textContent = randomWish;
             button.textContent = '😘';
             button.addEventListener('click',function(){
                 info = alert("Обіймаю. До мурашок ❤️ ")
-                close();
             })
         });
     });
