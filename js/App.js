@@ -2,7 +2,7 @@ var info = prompt("Напиши - Хочу листівку", "Хочу " );
 if(info === "Хочу листівку"){
     document.addEventListener('DOMContentLoaded', function() {
         const button = document.createElement('button');
-        button.textContent = 'ᓚᘏᗢ ❤️';
+        button.textContent = 'Перегляд листівочки';
         button.classList.add('btn', 'btn-greens', 'mt-3');
         document.querySelector('.card-body').appendChild(button);
         button.addEventListener('click', function() {
